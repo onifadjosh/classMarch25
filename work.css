@@ -1,0 +1,635 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #29292c;
+}
+nav {
+    padding: 15px 30px;
+    display: flex;
+    position: fixed;
+    top:0%
+}
+.link {
+    word-spacing: 30px;
+    padding: 15px 30px;
+}
+.angle {
+    padding: 0px;
+    color: white;
+}
+.angle:hover {
+    color: gold;
+}
+.s {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.s:hover {
+    color: gold;
+    text-decoration: underline;
+}
+.c {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.c:hover {
+    color: gold;
+    text-decoration: underline;
+}
+.b {
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.b:hover {
+    text-decoration: underline;
+}
+.r {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.r:hover {
+    color: gold;
+    text-decoration: underline;
+}
+.search {
+    padding: 15px;
+    border-radius: 100px;
+    border: 2px solid #3d3e44;
+    background-color: #2a282a;
+    color: white;
+}
+.search:hover {
+    border: 3px solid white;
+    outline: 4px solid gray;
+}
+.start {
+    color: white;
+    background-color: #e03131;
+    padding: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 0;
+}
+.start:hover {
+    border: 3px solid white;
+    outline: 4px solid #e03131;
+}
+.button1 {
+    padding-right: 10px;
+}
+.link {
+    margin-right: 200px;
+}
+.img {
+    margin-right: 300px;
+}
+.Giant {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 60px;
+    font-weight: 900px;
+    padding: 20px 150px 5px 150px;
+    margin: 50px;
+    width: 90vw;
+    height: 19vh;
+}
+.written {
+    font-family: sans-serif;
+    color: white;
+    font-size: 27px;
+    padding: 0px 150px ;
+    margin-left: 60px;  
+}
+.thoughtbot {
+    text-decoration: underline;
+    color: #ffe7a3;
+}
+.thoughtbot:hover {
+    color: white;
+    text-decoration: underline;
+}
+.note {
+    font-family: "Roboto", sans-serif;
+    margin: 60px;
+    word-spacing: 20px;
+    font-weight: 600;
+    margin-left: 210px;
+    padding-bottom: 5px;
+}
+.all {
+    background-color: gold;
+    padding: 10px 20px ;
+    border: 0;
+    border-radius: 50px;
+    word-spacing: 0;
+}
+.design {
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.design:hover {
+    color: gold;
+    border: 2px solid gold;
+}
+.web {
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.web:hover {
+    color: gold;
+    border: 2px solid gold;
+}
+.ios {
+    padding: 10px 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.ios:hover {
+    color: gold;
+    border: 2px solid gold;
+}
+.Andriod {
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.Andriod:hover {
+    color: gold;
+    border: 2px solid gold;
+}
+.more {
+    color: white;
+    padding: 15px 20px;
+    border: 0;
+    text-decoration: underline;
+    border-radius: 50px;
+    word-spacing: 0;
+
+}
+.more:hover {
+    color: gold;
+    border: 2px solid gold;
+    border: 0;
+}
+
+.line {
+    width: 60%;
+    height: 1px;
+    background-color: white;
+    margin: 50px;
+    margin-left: 210px;
+}
+.MVPs {
+    font-family: sans-serif;
+    font-size: 32px;
+    color: white;
+   margin-left: 210px;
+   font-weight: bold;
+}
+.MVPs:hover{
+    color: #ffe7a3 ;
+}
+.we {
+font-family: sans-serif;
+color: white;
+font-size: 22px;
+padding-left: 200px;
+margin: 10px;
+line-height: 34px;
+}
+.date{
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-left: 210px;
+    line-height: 30px;
+    font-size: 22px;
+    
+
+
+}
+.kelly{
+color: #ffe7a3;
+font-size: 17px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.kelly:hover{
+    color: white;
+
+
+}
+.march{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    color: white;
+    
+}
+.date{
+    margin-right: 210px;
+}
+.up {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-left: 210px; 
+    color: white;
+    font-weight: bold;
+}
+.mvp:hover{ 
+    color: #ffe7a3 ;
+
+}
+.startup:hover{
+    color: #ffe7a3 ;
+
+}
+.AI:hover{
+    color: #ffe7a3 ;
+
+}
+.Founder:hover{
+    color: #ffe7a3 ;
+
+}
+.Successful:hover{
+    color: #ffe7a3 ;
+}
+.signup-border {
+    border:0;
+    border-radius: 5px;
+    background-color: #3d3e44;
+    margin-left: 210px;
+    width: 50vw;
+    /* height: 35vh; */
+    padding: 30px 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 90px;
+    
+}
+.signup{ 
+    color: white;
+    background: 0;
+
+}
+.email{
+    color: white;
+    background-color: #3d3e44 ;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+#email{
+    background-color: white;
+    width: 500px;
+    height: 50px;
+    border: 0;
+    font-family: sans-serif;
+    
+}
+
+form{
+    background-color: #3d3e44;
+}
+.sub{
+    color: white;
+    background-color: #e03131;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size:17px;
+    font-weight: 700;
+    margin: 15px;
+
+}
+.sub:hover{
+    border: 3px solid white;
+    outline: 4px solid  #e03131;
+}
+.look{
+    color: white;
+    margin: 230px;
+  
+}
+hr{
+width: 50vw;
+margin: 20px;
+margin-left: 210px;
+color:#3d3e44;
+border: 1px solid #3d3e44;
+}
+.and{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+.derek{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    color: #ffe7a3 ;
+}
+.derek:hover{
+    color:white ;
+}
+.number{
+    margin-left: 600px;
+    padding: 60px;
+}
+.number2{
+    color: #ffe7a3 ;
+}
+.number2:hover{
+    color: white;
+}
+.number3{
+    color: #ffe7a3 ;
+}
+.number3:hover{
+    color: white;
+}
+.number4{
+    color: #ffe7a3 ;
+}
+.number4:hover{
+    color: white;
+}
+.number5{
+    color: #ffe7a3 ;
+}
+.number5:hover{
+    color: white;
+}
+.next{
+    color: #ffe7a3 ;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.next:hover{
+    color: white;
+}
+.last{
+    color: #ffe7a3 ;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.last:hover{
+    color: white;
+}
+.greater{
+    font-size: xx-small;
+}
+footer{
+    /* display: flex; */
+    /* background-image: url('/Multimedia/bot.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* width: 250px; */
+    /* height: 10vh; */
+    margin-left: 80px;
+    margin-top: 60px; 
+    /* margin: 20px 35px; */
+    
+}
+.data{
+    /* max-width: 700px; */
+    justify-content: space-evenly;
+    /* margin: auto; */
+    display: flex;
+}
+.SCR{
+  /* line-height: 30px; */
+  text-transform: capitalize;
+  /* margin-left: 150px; */
+
+  display: flex;
+  flex-direction: column;
+
+}
+.class1{
+   text-decoration: underline;
+   font-size: 20px;
+   color: white;
+}
+.class1:hover{
+    color: #e03131 ;
+}
+.class2{
+    text-decoration: underline;
+    font-size: 20px;
+    color: white;
+}
+.class2:hover{
+    color: #e03131 ;
+}
+.class3{
+    text-decoration: underline;
+    font-size: 20px;
+    color: white;
+}
+.class3:hover{
+    color: #e03131;
+}
+.talk{
+    text-decoration: underline;
+    font-size: 20px; 
+    color:#ffe7a3;
+}
+.talk:hover{
+    color: #e03131;
+}
+.SCR2{
+    /* line-height: 30px; */
+    text-transform: capitalize;
+   /* margin-left: 200px; */
+}
+.class4{
+    text-decoration: underline;
+    font-size: 20px;
+    color: white;
+}.class4:hover{
+    color: #e03131;
+}
+.class5{
+    text-decoration: underline;
+    font-size: 20px;
+    color: white;
+}
+.class5:hover{
+    color: #e03131;
+}
+.class6{
+    text-decoration: underline;
+    font-size: 20px;
+    color: white;
+}
+.class6:hover{
+    color: #e03131;
+}
+.class7{
+    text-decoration: underline;
+    font-size: 20px;
+    color: white;
+}
+.class7:hover{
+    color: #e03131;
+}
+.class8{
+    text-decoration: underline;
+    font-size: 20px;
+    color: white;
+}
+.class8:hover{
+    color: #e03131;
+}
+.SCR3{
+    /* margin-left: 150px; */
+    /* line-height: 30px; */
+    text-transform: capitalize;
+}
+.class9{
+    text-decoration: underline;
+    font-size: 20px;
+    color: white;
+}
+.class9:hover{
+    color: #e03131;
+}
+.class10{  text-decoration: underline;
+    font-size: 20px;
+    color: white;
+
+}
+.class10:hover{
+    color: #e03131;
+}
+.class11{  text-decoration: underline;
+    font-size: 20px;
+    color: white;
+
+}
+.class11:hover{
+    color: #e03131;
+}
+.class12{  text-decoration: underline;
+    font-size: 20px;
+    color: white;
+
+}
+.class12:hover{
+    color: #e03131;
+}
+.class13{  text-decoration: underline;
+    font-size: 20px;
+    color: white;
+
+}
+.class13:hover{
+    color: #e03131;
+}
+
+.inc{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #96b5c0;
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: lowercase;
+    line-height:22px;
+    /* padding: 30px; */
+    display: flex;
+    margin: 150px;
+} 
+.US{
+    margin-left: 150px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.US:hover{
+    color: #e03131;
+}
+
+.UK
+{
+    margin-left: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.UK:hover{
+    color: #e03131;
+}
+.Beware{
+   margin-top: 100px;
+   margin-right: 100px;
+   width: 350px;
+
+}
+
+.sade{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: start;
+    align-items: start;
+}
+
+@media screen and (max-width:768px) {
+    .Giant {
+        font-size: 50px;
+        padding: 20px 50px 5px 50px;
+
+    }
+    .written{
+        padding: 0px 50px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .Giant{
+        font-size: 55px;
+        margin:50px 50px 10px;
+        height: 16vh;
+    }
+
+    .written{
+        font-size:26px;
+    }
+
+    .MVPs{
+        font-size: 28px;
+    }
+
+    .signup-border {
+        width: 60vw;
+    }
+    .Beware{
+        margin-left: 150px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    body{
+        background-color: red;
+    }
+}
+
+
+
+
+
+
